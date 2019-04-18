@@ -2,5 +2,9 @@
 
 ## Steps to reproduce:
 
-1. clone repository
-2. type in `go mod vendor`
+1. use windows
+2. `setx GOROOT "C:\go"`
+3. `setx GOPATH "C:\go\workspace"`
+4. clone repository
+5. type in `go get`
+6. type in `go mod vendor`
